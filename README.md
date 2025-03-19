@@ -54,10 +54,9 @@ Ensure you have the following installed:
 ## API Endpoints
 | Endpoint           | Method | Description |
 |-------------------|--------|-------------|
-| `/login`         | POST   | User login |
-| `/register`      | POST   | User registration |
-| `/logout`        | GET    | User logout |
-| `/protected`     | GET    | Access protected resource after login |
+| `api/login`         | POST   | User login |
+| `api/register`      | POST   | User registration |
+| `api/protected`     | GET    | Access protected resource after login |
 
 ### Accessing Protected APIs
 To access protected API endpoints after logging in:
